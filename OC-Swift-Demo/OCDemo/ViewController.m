@@ -9,7 +9,9 @@
 #import "ViewController.h"
 #import "OCDemo-swift.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    Tools *tool;
+}
 
 @end
 
@@ -18,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    Tools *tool = [[Tools alloc]init];
+    tool = [[Tools alloc]init];
     NSString *tip = [tool commandGetInfoWithId:2 plus:4]; 
     NSLog(@"Result:%@", tip);
 }

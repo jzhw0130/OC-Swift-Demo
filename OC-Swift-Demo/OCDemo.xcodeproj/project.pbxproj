@@ -16,7 +16,83 @@
 		3FC29B611EC882570094275D /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC29B601EC882570094275D /* Tools.swift */; };
 		3FC29B641EC884FB0094275D /* OCTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC29B631EC884FB0094275D /* OCTools.m */; };
 		3FC29B661EC88BD80094275D /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC29B651EC88BD80094275D /* Info.swift */; };
+		3FD812BA1ECDDFA400F87DF7 /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD812AD1ECDDF9500F87DF7 /* Apollo.framework */; };
+		3FD812BB1ECDDFA400F87DF7 /* Apollo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD812AD1ECDDF9500F87DF7 /* Apollo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3FD812C01ECDE08600F87DF7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD812BF1ECDE08600F87DF7 /* API.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FD812AC1ECDDF9500F87DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9FC750441D2A532C00458D91;
+			remoteInfo = "Apollo iOS";
+		};
+		3FD812AE1ECDDF9500F87DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9FC7504E1D2A532D00458D91;
+			remoteInfo = "ApolloTests iOS";
+		};
+		3FD812B01ECDDF9500F87DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C4DBCD11DD21C9D005B61D0;
+			remoteInfo = "Apollo watchOS";
+		};
+		3FD812B21ECDDF9500F87DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C4DBCDE1DD21CEF005B61D0;
+			remoteInfo = "Apollo tvOS";
+		};
+		3FD812B41ECDDF9500F87DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C4DBCE61DD21CF0005B61D0;
+			remoteInfo = "ApolloTests tvOS";
+		};
+		3FD812B61ECDDF9500F87DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C4DBCFA1DD21D53005B61D0;
+			remoteInfo = "Apollo macOS";
+		};
+		3FD812B81ECDDF9500F87DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C4DBD021DD21D53005B61D0;
+			remoteInfo = "ApolloTests macOS";
+		};
+		3FD812BC1ECDDFA400F87DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC750431D2A532C00458D91;
+			remoteInfo = "Apollo iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FD812BE1ECDDFA400F87DF7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3FD812BB1ECDDFA400F87DF7 /* Apollo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3FC29B451EC881EA0094275D /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +110,8 @@
 		3FC29B621EC884FB0094275D /* OCTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTools.h; sourceTree = "<group>"; };
 		3FC29B631EC884FB0094275D /* OCTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTools.m; sourceTree = "<group>"; };
 		3FC29B651EC88BD80094275D /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Apollo.xcodeproj; path = "apollo-ios/Apollo.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		3FD812BF1ECDE08600F87DF7 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD812BA1ECDDFA400F87DF7 /* Apollo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +145,14 @@
 		3FC29B471EC881EA0094275D /* OCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */,
 				3FC29B4B1EC881EA0094275D /* AppDelegate.h */,
 				3FC29B4C1EC881EA0094275D /* AppDelegate.m */,
 				3FC29B4E1EC881EA0094275D /* ViewController.h */,
 				3FC29B4F1EC881EA0094275D /* ViewController.m */,
 				3FC29B651EC88BD80094275D /* Info.swift */,
 				3FC29B601EC882570094275D /* Tools.swift */,
+				3FD812BF1ECDE08600F87DF7 /* API.swift */,
 				3FC29B511EC881EA0094275D /* Main.storyboard */,
 				3FC29B541EC881EA0094275D /* Assets.xcassets */,
 				3FC29B561EC881EA0094275D /* LaunchScreen.storyboard */,
@@ -92,6 +173,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3FD812A31ECDDF9500F87DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD812AD1ECDDF9500F87DF7 /* Apollo.framework */,
+				3FD812AF1ECDDF9500F87DF7 /* ApolloTests iOS.xctest */,
+				3FD812B11ECDDF9500F87DF7 /* Apollo.framework */,
+				3FD812B31ECDDF9500F87DF7 /* Apollo.framework */,
+				3FD812B51ECDDF9500F87DF7 /* ApolloTests tvOS.xctest */,
+				3FD812B71ECDDF9500F87DF7 /* Apollo.framework */,
+				3FD812B91ECDDF9500F87DF7 /* ApolloTests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,10 +197,12 @@
 				3FC29B411EC881EA0094275D /* Sources */,
 				3FC29B421EC881EA0094275D /* Frameworks */,
 				3FC29B431EC881EA0094275D /* Resources */,
+				3FD812BE1ECDDFA400F87DF7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3FD812BD1ECDDFA400F87DF7 /* PBXTargetDependency */,
 			);
 			name = OCDemo;
 			productName = OCDemo;
@@ -139,12 +236,70 @@
 			mainGroup = 3FC29B3C1EC881EA0094275D;
 			productRefGroup = 3FC29B461EC881EA0094275D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3FD812A31ECDDF9500F87DF7 /* Products */;
+					ProjectRef = 3FD812A21ECDDF9500F87DF7 /* Apollo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3FC29B441EC881EA0094275D /* OCDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3FD812AD1ECDDF9500F87DF7 /* Apollo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Apollo.framework;
+			remoteRef = 3FD812AC1ECDDF9500F87DF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3FD812AF1ECDDF9500F87DF7 /* ApolloTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ApolloTests iOS.xctest";
+			remoteRef = 3FD812AE1ECDDF9500F87DF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3FD812B11ECDDF9500F87DF7 /* Apollo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Apollo.framework;
+			remoteRef = 3FD812B01ECDDF9500F87DF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3FD812B31ECDDF9500F87DF7 /* Apollo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Apollo.framework;
+			remoteRef = 3FD812B21ECDDF9500F87DF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3FD812B51ECDDF9500F87DF7 /* ApolloTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ApolloTests tvOS.xctest";
+			remoteRef = 3FD812B41ECDDF9500F87DF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3FD812B71ECDDF9500F87DF7 /* Apollo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Apollo.framework;
+			remoteRef = 3FD812B61ECDDF9500F87DF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3FD812B91ECDDF9500F87DF7 /* ApolloTests macOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ApolloTests macOS.xctest";
+			remoteRef = 3FD812B81ECDDF9500F87DF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3FC29B431EC881EA0094275D /* Resources */ = {
@@ -170,10 +325,19 @@
 				3FC29B661EC88BD80094275D /* Info.swift in Sources */,
 				3FC29B4A1EC881EA0094275D /* main.m in Sources */,
 				3FC29B611EC882570094275D /* Tools.swift in Sources */,
+				3FD812C01ECDE08600F87DF7 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FD812BD1ECDDFA400F87DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Apollo iOS";
+			targetProxy = 3FD812BC1ECDDFA400F87DF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3FC29B511EC881EA0094275D /* Main.storyboard */ = {
@@ -288,6 +452,7 @@
 		3FC29B5D1EC881EA0094275D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OCDemo/Info.plist;
@@ -303,6 +468,7 @@
 		3FC29B5E1EC881EA0094275D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OCDemo/Info.plist;
@@ -333,6 +499,7 @@
 				3FC29B5E1EC881EA0094275D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
